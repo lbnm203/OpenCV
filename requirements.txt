@@ -1,0 +1,10 @@
+altair
+numpy
+pandas
+pydeck
+streamlit
+opencv-python-headless
+streamlit-drawable-canvas==0.8.0
+svgpathtools
+svgwrite
+matplotlib
