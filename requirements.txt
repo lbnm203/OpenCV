@@ -9,3 +9,4 @@ svgpathtools
 svgwrite
 matplotlib
 scikit-learn
+google-cloud
