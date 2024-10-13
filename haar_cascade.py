@@ -276,7 +276,7 @@ def face_detection_app():
 
         - ###### Tham số k tốt nhất: 22
 
-        - ###### IoU: 0.17
+        - ###### Average IoU: 0.17
         """
     )
 
