@@ -8,11 +8,12 @@ import grabcut as ga
 import watershed_app as ws
 import matplotlib.pyplot as plt
 import haar_cascade as hr
+import face_vertificate as fv
 
 # import watershed_app as wt
 
 choice = st.sidebar.selectbox(
-    "Chọn thuật toán", ['GrabCut', 'WaterShed', 'Haar Cascade'], key="algorithm_selector")
+    "Chọn thuật toán", ['GrabCut', 'WaterShed', 'Haar Cascade', 'Face Vertification'], key="algorithm_selector")
 
 if choice == 'GrabCut':
     st.sidebar.write("## Tải ảnh lên")
@@ -503,3 +504,6 @@ if choice == 'WaterShed':
 
 if choice == 'Haar Cascade':
     hr.face_detection_app()
+
+if choice == 'Face Verification':
+    fv.sec1()
