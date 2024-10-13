@@ -10,3 +10,5 @@ svgwrite
 matplotlib
 scikit-learn
 google-cloud
+google-cloud-firestore
+google-cloud-storage
