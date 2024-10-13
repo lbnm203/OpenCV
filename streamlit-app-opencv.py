@@ -12,7 +12,7 @@ import haar_cascade as hr
 # import watershed_app as wt
 
 choice = st.sidebar.selectbox(
-    "Chọn thuật toán", ['GrabCut', 'WaterShed', 'Haar Cascade'])
+    "Chọn thuật toán", ['GrabCut', 'WaterShed', 'Haar Cascade'], key="algorithm_selector")
 
 if choice == 'GrabCut':
     st.sidebar.write("## Tải ảnh lên")
