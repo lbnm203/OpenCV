@@ -162,4 +162,5 @@ cython_debug/
 #.idea/
 
 # secrets.toml
-*.toml
+**/secrets.toml
+**/face-vertificates-firebase-adminsdk-ybae0-a9efd8bfed.json
